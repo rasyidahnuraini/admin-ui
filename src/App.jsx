@@ -11,8 +11,7 @@ function App() {
           bank
           <span className="font-bold">.IO</span>
         </div> 
-        {/* logo end */}
-        
+        {/* logo end */}       
         {/* form start */}
         <div className="mt-16">
           <form action="">
@@ -60,7 +59,6 @@ function App() {
           </form>
         </div>
         {/* form end */}
-        
         {/* teks start */}
         <div className="my-9 px-7 flex flex-col justify-center items-center text-xs text-gray-03">
           <div className="border border-gray-05 w-full"></div>
