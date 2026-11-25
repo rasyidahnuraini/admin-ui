@@ -7,7 +7,7 @@ function dashboard() {
   return (
     <>
       <MainLayout>
-        <div className="grid sm:grid-cols-12 sm:grid-rows-3 mt-6 gap-6 h-full">
+        <div className="grid sm:grid-cols-12 sm:grid-rows-3 mt-6 gap-6 h-full flex-1">
 
           {/* Total Balance */}
           <div className="sm:col-span-4">

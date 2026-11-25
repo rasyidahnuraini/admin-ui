@@ -7,8 +7,8 @@ function MainLayout(props) {
 
   return (
     <>
-      <div className="flex min-h-screen w-full">
-        <aside className="bg-defaultBlack w-28 sm:w-64 text-special-bg2 flex flex-col justify-between px-7 py-12">
+      <div className="flex min-h-screen w-full items-stretch">
+        <aside className="bg-defaultBlack w-28 sm:w-64 self-stretch shrink-0 text-special-bg2 flex flex-col justify-between px-7 py-12">
           <div>
             <div className="mb-10">
                 <Logo variant="secondary" />
@@ -56,7 +56,9 @@ function MainLayout(props) {
                 <input backgroundColor="bg-white" border="border-white" /> 
             </div>
             </header>
-          <main className="flex-1 px-6 py-4">{children}</main>
+          <main className="flex-1 px-6 py-4 flex flex-col">
+            {children}
+          </main>
         </div>
       </div>
     </>
