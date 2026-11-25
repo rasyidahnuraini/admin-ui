@@ -1,5 +1,5 @@
 import React from "react";
-import TemplateCenter from "../templates/TemplateCenter";
+import TemplateCenter from "../templates/TemplateMain";
 import OrganismLoginPanel from "../organisms/OrganismLoginPanel";
 
 const PageLogin = () => {
